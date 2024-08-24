@@ -37,8 +37,10 @@ ul {
 }
 
 .second {
-    background-color: silver;
+    background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .secondleftcontainer {
@@ -48,11 +50,16 @@ ul {
 }
 
 .secondbigtext {
-    padding: 40px;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-left: 40px;
+    margin-bottom: 10px;
 }
 
 .secondsmalltext {
     padding-left: 40px;
+    color: white;
 }
 
 .secondbutton {
@@ -67,10 +74,101 @@ ul {
 }
 
 
-.secondimage {
+.secondimagepadding {
+    padding: 60px;
+}
+
+.thirdtopcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.thirdbottomimages {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+
+.info img {
+    border: 3px solid rgb(30, 125, 226);
+}
+
+.info {
+    max-width: 150px;
+}
+
+.text {
+    text-align: center;
     display: flex;
     justify-content: center;
 }
+
+.fourth {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.quoteciting {
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fifth {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3882f6;
+    border-radius: 1%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 100px
+}
+
+.fifthtoptext {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fifthbottomtext {
+    color: white;
+}
+
+.fifthbutton {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    margin-left: 40px;
+}
+
 
 
 
